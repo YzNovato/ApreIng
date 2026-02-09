@@ -1,7 +1,7 @@
-h1{
+/* h1{
     font-size:xx-small;
     font-family: ;
-}
+} */
 
 h2{
     font-size: medium;
@@ -12,3 +12,17 @@ p{
     font-size: medium;
     font-family: ;
 }
+body{
+    margin: 0;
+}
+
+/* width  eu controlo o texto para o lado*/
+
+
+header{
+    background-color: rgb(119, 0, 255);
+    height: 50px;
+    font-size: 50px;
+    font-family: ;
+}
+

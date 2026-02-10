@@ -3,26 +3,50 @@
     font-family: ;
 } */
 
-h2{
+/* h2{
     font-size: medium;
     font-family: ;
-}
+} */
 
-p{
+/* p{
     font-size: medium;
     font-family: ;
-}
+} */
 body{
     margin: 0;
 }
+/* controle de margem para os textos gerais */
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    margin-top: 0px;
+}
+
+h3{
+    margin-top: 0px;
+}
+
 
 /* width  eu controlo o texto para o lado*/
 
 
 header{
     background-color: rgb(119, 0, 255);
-    height: 50px;
-    font-size: 50px;
+    height: 45px;
+    font-size: 30px;
     font-family: ;
 }
 
+.subtitleprincipal{
+    font-size:25px;
+    font-family: ;
+    background-color: blue;
+    margin: 0;
+}
+
+.start{
+    font-size: 20px;
+    background-color: chocolate;
+}

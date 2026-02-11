@@ -1,17 +1,5 @@
-/* h1{
-    font-size:xx-small;
-    font-family: ;
-} */
+/* width  eu controlo o texto para o lado*/
 
-/* h2{
-    font-size: medium;
-    font-family: ;
-} */
-
-/* p{
-    font-size: medium;
-    font-family: ;
-} */
 body{
     margin: 0;
 }
@@ -28,10 +16,6 @@ h3{
     margin-top: 0px;
 }
 
-
-/* width  eu controlo o texto para o lado*/
-
-
 header{
     background-color: rgb(119, 0, 255);
     height: 45px;
@@ -46,7 +30,52 @@ header{
     margin: 0;
 }
 
+.principalquestion{
+    background-color: cyan;
+}
+
 .start{
     font-size: 20px;
     background-color: chocolate;
+}
+
+/* Novel */
+.Novel h3{
+    font-size: 20px;
+}
+.Novel img{
+    display:block;
+}
+.Novel p{
+    font-size: 10px;
+}
+/* Mangá */
+.Manga h3{
+    font-size: 20px;
+}
+.Manga img{
+    display:block;
+}
+.Manga p{
+    font-size: 10px;
+}
+/* Manhwa */
+.Manhwa h3{
+    font-size: 20px;
+}
+.Manhwa img{
+    display: block;
+}
+.Manhwa p{
+    font-size: 10px;
+}
+/* Anime */
+.Anime h3{
+    font-size: 20px;
+}
+.Anime img{
+    display: block;
+}
+.Anime p{
+    font-size: 10px;
 }

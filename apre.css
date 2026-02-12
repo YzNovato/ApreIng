@@ -1,4 +1,9 @@
 /* width  eu controlo o texto para o lado*/
+/* list-style-type: disc;      bolinha preta 
+list-style-type: circle;    bolinha vazia 
+list-style-type: square;    quadrado 
+list-style-type: none;      remove marcador  */
+
 
 body{
     margin: 0;
@@ -125,4 +130,64 @@ header{
 /* stages */
 .stages{
     font-size: 20px;
+}
+
+/* Pré-Production */
+.preproduction h3{
+    font-size: 20px;
+}
+.preproduction li{
+    font-size: 10px;
+}
+
+/* Production */
+.production h3{
+    font-size: 20px;
+}
+.production li{
+    font-size: 10px;
+}
+
+/* Pós-Production */
+.posproduction h3{
+    font-size: 20px;
+}
+.posproduction li{
+    font-size: 10px;
+}
+
+/* Techniques */
+.techniques{
+    font-size: 20px;
+}
+
+/* Off-Scream Diologue */
+.offscreamdialogue h3{
+    font-size: 10px;
+}
+.offscreamdialogue p{
+    font-size: 10px;
+}
+
+/* Bank Animation */
+.bankanimation h3{
+    font-size: 10px;
+}
+.bankanimation h2{
+    font-size: 10px;
+}
+.bankanimation li{
+    font-size: 10px;
+}
+
+/* Animation Effects */
+
+.animationeffects h3{
+    font-size: 10px;
+}
+.animationeffects h2{
+    font-size: 10px;
+}
+.animationeffects li{
+    font-size: 10px;
 }

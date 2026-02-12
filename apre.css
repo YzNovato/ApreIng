@@ -40,46 +40,89 @@ header{
 }
 
 /* Novel */
-.Novel h3{
+.novel h3{
     font-size: 20px;
 }
-.Novel img{
+.novel img{
     display:block;
 }
-.Novel p{
+.novel p{
     font-size: 10px;
 }
 /* Mangá */
-.Manga h3{
+.manga h3{
     font-size: 20px;
 }
-.Manga img{
+.manga img{
     display:block;
 }
-.Manga p{
+.manga p{
     font-size: 10px;
 }
 /* Manhwa */
-.Manhwa h3{
+.manhwa h3{
     font-size: 20px;
 }
-.Manhwa img{
+.manhwa img{
     display: block;
 }
-.Manhwa p{
+.manhwa p{
     font-size: 10px;
 }
 /* Anime */
-.Anime h3{
+.anime h3{
     font-size: 20px;
 }
-.Anime img{
+.anime img{
     display: block;
 }
-.Anime p{
+.anime p{
     font-size: 10px;
 }
 
 .sequence{
     background-color: darkolivegreen;
+}
+
+/* Trailer */
+.trailer h3{
+    font-size: 20px;
+}
+.trailer video{
+
+}
+.trailer p{
+    font-size: 10px;
+}
+
+/* Trailer */
+.opening h3{
+    font-size: 20px;
+}
+.opening video{
+
+}
+.opening p{
+    font-size: 10px;
+}
+
+/* Trailer */
+.ending h3{
+    font-size: 20px;
+}
+.ending video{
+
+}
+.ending p{
+    font-size: 10px;
+}
+
+/* anime vs manga */
+.versus{
+    font-size: 30px;
+}
+
+/* stages */
+.stages{
+    font-size: 20px;
 }

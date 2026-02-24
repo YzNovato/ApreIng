@@ -126,6 +126,9 @@ header{
 .versus{
     font-size: 30px;
 }
+.versus img{
+    display: block;
+}
 
 /* stages */
 .stages{
@@ -165,6 +168,9 @@ header{
 .offscreamdialogue h3{
     font-size: 10px;
 }
+.offscreamdialogue img{
+    display: block;
+}
 .offscreamdialogue p{
     font-size: 10px;
 }
@@ -175,6 +181,15 @@ header{
 }
 .bankanimation h2{
     font-size: 10px;
+}
+.goku-img{
+    display: block;
+}
+.goku-1{
+
+}
+.goku-2{
+
 }
 .bankanimation li{
     font-size: 10px;
@@ -187,6 +202,9 @@ header{
 }
 .animationeffects h2{
     font-size: 10px;
+}
+.animationeffects img{
+    display: block;
 }
 .animationeffects li{
     font-size: 10px;

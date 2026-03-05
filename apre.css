@@ -4,6 +4,10 @@ list-style-type: circle;    bolinha vazia
 list-style-type: square;    quadrado 
 list-style-type: none;      remove marcador  */
 
+/* @font-face {
+    font-family: "animevision";
+    src: url("font/ANIME VISION - MB_EN REGULAR.TTF");
+} */
 
 body{
     margin: 0;
@@ -183,12 +187,15 @@ header{
     font-size: 10px;
 }
 .goku-img{
-    display: block;
+    
 }
 .goku-1{
 
 }
 .goku-2{
+
+}
+.goku-3{
 
 }
 .bankanimation li{

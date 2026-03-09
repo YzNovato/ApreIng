@@ -4,10 +4,10 @@ list-style-type: circle;    bolinha vazia
 list-style-type: square;    quadrado 
 list-style-type: none;      remove marcador  */
 
-/* @font-face {
+@font-face {
     font-family: "animevision";
-    src: url("font/ANIME VISION - MB_EN REGULAR.TTF");
-} */
+    src: url("fonts/animevision.ttf") format('truetype');
+} 
 
 body{
     margin: 0;
@@ -29,7 +29,7 @@ header{
     background-color: rgb(119, 0, 255);
     height: 45px;
     font-size: 30px;
-    font-family: ;
+    font-family: 'animevision';
 }
 
 .subtitleprincipal{
@@ -51,6 +51,8 @@ header{
 /* Novel */
 .novel h3{
     font-size: 20px;
+        font-family: 'animevision';
+
 }
 .novel img{
     display:block;

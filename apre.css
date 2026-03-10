@@ -26,21 +26,39 @@ h3{
 }
 
 header{
-    background-color: rgb(119, 0, 255);
-    height: 45px;
+    background-color: #b81414;
+    height: 50px;
     font-size: 30px;
     font-family: 'animevision';
+    text-align: center;
+    padding-bottom: 5px;
 }
 
 .subtitleprincipal{
     font-size:25px;
-    font-family: ;
-    background-color: blue;
+    font-family: 'animevision';
+    background-color: #e61919;
     margin: 0;
+    text-align: center;
+}
+.stretch-title{
+    display: inline-block;
+    transform: scaleX(1.8);
+}
+.stretch-subtitle{
+    display: inline-block;
+    transform: scaleX(1.5);
 }
 
 .principalquestion{
-    background-color: cyan;
+    font-size: 40px;
+    font-family: 'animevision';
+    text-align: center;
+    -webkit-text-stroke: 2px #ff3b2f;
+
+}
+.haikyuu img{
+    display: block;
 }
 
 .start{

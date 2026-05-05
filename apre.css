@@ -57,9 +57,17 @@ header{
     -webkit-text-stroke: 2px #ff3b2f;
 
 }
-.haikyuu img{
-    display: block;
+.containerHaikyuu {
+    display: flex;
+    justify-content: center; /* horizontal */
+    align-items: center;     /* vertical */
 }
+.containerHaikyuu img {
+    width: 600px;
+    height: auto;
+    border: 2px solid #ff3b2f
+}
+
 
 .start{
     font-size: 20px;

@@ -63,58 +63,131 @@ header{
     align-items: center;     /* vertical */
 }
 .containerHaikyuu img {
-    width: 600px;
+    width: 700px;
     height: auto;
     border: 2px solid #ff3b2f
 }
 
 
 .start{
-    font-size: 20px;
-    background-color: chocolate;
+    padding: 5px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+
+    text-shadow:
+    0 0 5px white,
+    0 0 15px #e61919,
+    0 0 10px #e61919;
 }
 
 /* Novel */
+.containernovel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.novel{
+    display: flex;
+    flex-direction: column; /* empilha elementos */
+    align-items: center;    /* centraliza horizontalmente */
+    text-align: center;
+}
 .novel h3{
     font-size: 20px;
-        font-family: 'animevision';
+    font-family: 'animevision';
+    text-align: center;
 
 }
 .novel img{
-    display:block;
+    align-items: center;
+    width: 700px;
+    height: auto;
 }
 .novel p{
-    font-size: 10px;
+    text-align: center;
+    font-size: 25px;
 }
 /* Mangá */
+.containermanga{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.manga{
+    display: flex;
+    flex-direction: column; /* empilha elementos */
+    align-items: center;    /* centraliza horizontalmente */
+    text-align: center;
+}
 .manga h3{
     font-size: 20px;
+    font-family: 'animevision';
+    text-align: center;
 }
 .manga img{
-    display:block;
+    align-items: center;
+    width: 400px;
+    height: auto;
 }
 .manga p{
-    font-size: 10px;
+    text-align: center;
+    font-size: 25px;
 }
 /* Manhwa */
+
+.containermanhwa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.manhwa{
+    display: flex;
+    flex-direction: column; /* empilha elementos */
+    align-items: center;    /* centraliza horizontalmente */
+    text-align: center;
+}
 .manhwa h3{
-    font-size: 20px;
+font-size: 20px;
+    font-family: 'animevision';
+    text-align: center;
 }
 .manhwa img{
-    display: block;
+align-items: center;
+    width: 400px;
+    height: auto;
 }
 .manhwa p{
-    font-size: 10px;
+text-align: center;
+    font-size: 25px;
 }
 /* Anime */
+.containeranime{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+.anime{
+    display: flex;
+    flex-direction: column; /* empilha elementos */
+    align-items: center;    /* centraliza horizontalmente */
+    text-align: center;
+}
 .anime h3{
-    font-size: 20px;
+font-size: 20px;
+    font-family: 'animevision';
+    text-align: center;
 }
 .anime img{
-    display: block;
+align-items: center;
+    width: 600px;
+    height: auto;
 }
 .anime p{
-    font-size: 10px;
+text-align: center;
+    font-size: 25px;
 }
 
 .sequence{

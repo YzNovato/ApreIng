@@ -149,17 +149,17 @@ header{
     text-align: center;
 }
 .manhwa h3{
-font-size: 20px;
+    font-size: 20px;
     font-family: 'animevision';
     text-align: center;
 }
 .manhwa img{
-align-items: center;
+    align-items: center;
     width: 400px;
     height: auto;
 }
 .manhwa p{
-text-align: center;
+    text-align: center;
     font-size: 25px;
 }
 /* Anime */
@@ -176,22 +176,46 @@ text-align: center;
     text-align: center;
 }
 .anime h3{
-font-size: 20px;
+    font-size: 20px;
     font-family: 'animevision';
     text-align: center;
 }
 .anime img{
-align-items: center;
+    align-items: center;
     width: 600px;
     height: auto;
 }
 .anime p{
-text-align: center;
+    text-align: center;
     font-size: 25px;
 }
-
+/* Imagem de ordem */
+.containerordem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
 .sequence{
-    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column; /* empilha elementos */
+    align-items: center;    /* centraliza horizontalmente */
+    text-align: center;
+}
+.sequence h2{
+    padding: 5px 0 0 0;
+    font-size: 30px;
+    text-align: center;
+
+    text-shadow:
+    0 0 5px white,
+    0 0 15px #e61919,
+    0 0 10px #e61919;
+}
+.sequence img{
+    align-items: center;
+    width: 800px;
+    height: auto;
 }
 
 /* Trailer */

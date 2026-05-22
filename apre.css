@@ -8,7 +8,14 @@ list-style-type: none;      remove marcador  */
     font-family: "animevision";
     src: url("fonts/animevision.ttf") format('truetype');
 } 
+p{
+    max-width: 800px;
+    line-height: 1.6;
+    text-align: center;
+    font-size: 25px;
 
+    font-family: Arial, sans-serif;
+}
 body{
     margin: 0;
 }
@@ -23,23 +30,49 @@ h2 {
 
 h3{
     margin-top: 0px;
+    font-size: 35px;
+    font-family: 'animevision';
+    text-align: center;
+    color: black;
+
+    letter-spacing: 3px;
+
+    text-shadow:
+        0 0 5px #ff3b2f,
+        0 0 15px #ff3b2f,
+        0 0 35px #ff0000,
+        0 0 70px #ff0000,
+        0 0 140px #ff0000;
 }
 
 header{
-    background-color: #b81414;
     height: 50px;
     font-size: 30px;
     font-family: 'animevision';
     text-align: center;
     padding-bottom: 5px;
+    text-shadow:
+        0 0 5px #ff3b2f,
+        0 0 15px #ff3b2f,
+        0 0 35px #ff0000,
+        0 0 70px #ff0000,
+        0 0 140px #ff0000;
+    -webkit-text-stroke: #ff0000 1px;
 }
 
 .subtitleprincipal{
     font-size:25px;
     font-family: 'animevision';
-    background-color: #e61919;
     margin: 0;
     text-align: center;
+    text-shadow:
+        0 0 5px #ff3b2f,
+        0 0 15px #ff3b2f,
+        0 0 35px #ff0000,
+        0 0 70px #ff0000,
+        0 0 140px #ff0000;
+    -webkit-text-stroke: #ff0000 1px;
+
 }
 .stretch-title{
     display: inline-block;
@@ -54,7 +87,12 @@ header{
     font-size: 40px;
     font-family: 'animevision';
     text-align: center;
-    -webkit-text-stroke: 2px #ff3b2f;
+    text-shadow:
+        0 0 5px #ff3b2f,
+        0 0 15px #ff3b2f,
+        0 0 35px #ff0000,
+        0 0 70px #ff0000,
+        0 0 140px #ff0000;
 
 }
 .containerHaikyuu {
@@ -92,23 +130,15 @@ header{
     align-items: center;    /* centraliza horizontalmente */
     text-align: center;
 }
-.novel h3{
-    font-size: 20px;
-    font-family: 'animevision';
-    text-align: center;
 
-}
 .novel img{
     align-items: center;
     width: 700px;
     height: auto;
+    border: 2px solid #ff3b2f
+
 }
-.novel p{
-    max-width: 800px;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 25px;
-}
+
 /* Mangá */
 .containermanga{
     display: flex;
@@ -122,22 +152,15 @@ header{
     align-items: center;    /* centraliza horizontalmente */
     text-align: center;
 }
-.manga h3{
-    font-size: 20px;
-    font-family: 'animevision';
-    text-align: center;
-}
+
 .manga img{
     align-items: center;
     width: 400px;
     height: auto;
+    border: 2px solid #ff3b2f
 }
-.manga p{
-    max-width: 800px;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 25px;
-}
+
+
 /* Manhwa */
 
 .containermanhwa{
@@ -152,22 +175,15 @@ header{
     align-items: center;    /* centraliza horizontalmente */
     text-align: center;
 }
-.manhwa h3{
-    font-size: 20px;
-    font-family: 'animevision';
-    text-align: center;
-}
+
 .manhwa img{
     align-items: center;
     width: 400px;
     height: auto;
+    border: 2px solid #ff3b2f
 }
-.manhwa p{
-    max-width: 800px;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 25px;
-}
+
+
 /* Anime */
 .containeranime{
     display: flex;
@@ -181,21 +197,12 @@ header{
     align-items: center;    /* centraliza horizontalmente */
     text-align: center;
 }
-.anime h3{
-    font-size: 20px;
-    font-family: 'animevision';
-    text-align: center;
-}
+
 .anime img{
     align-items: center;
     width: 600px;
     height: auto;
-}
-.anime p{
-    max-width: 800px;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 25px;
+    border: 2px solid #ff3b2f
 }
 /* Imagem de ordem */
 .containerordem{
@@ -244,21 +251,8 @@ header{
 .trailer iframe{
     width: 800px;
     height: 450px;
-    border: 2px solid #00bfff;
+    border: 2px solid #ff3b2f;
     border-radius: 20px;
-}
-
-.trailer h3{
-    font-size: 20px;
-    font-family: 'animevision';
-    text-align: center;
-}
-
-.trailer p{
-    max-width: 800px;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 25px;
 }
 
 /* OPENING */
@@ -280,23 +274,9 @@ header{
 .opening iframe{
     width: 800px;
     height: 450px;
-    border: 2px solid #00bfff;
+    border: 2px solid #ff3b2f;
     border-radius: 20px;
 }
-
-.opening h3{
-    font-size: 20px;
-    font-family: 'animevision';
-    text-align: center;
-}
-
-.opening p{
-    max-width: 800px;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 25px;
-}
-
 
 /* ENDING */
 
@@ -317,21 +297,8 @@ header{
 .ending iframe{
     width: 800px;
     height: 450px;
-    border: 2px solid #00bfff;
+    border: 2px solid #ff3b2f;
     border-radius: 20px;
-}
-
-.ending h3{
-    font-size: 20px;
-    font-family: 'animevision';
-    text-align: center;
-}
-
-.ending p{
-    max-width: 800px;
-    line-height: 1.6;
-    text-align: center;
-    font-size: 25px;
 }
 
 /* anime vs manga */
@@ -347,15 +314,12 @@ header{
     text-align: center;
     gap: 20px;
 }
-.containerversus h3{
-    font-size: 20px;
-    font-family: 'animevision';
-    text-align: center;
-}
+
 .containerversus img{
     align-items: center;
     width: 700px;
     height: auto;
+    border: 2px solid #ff3b2f
 }
 
 /* CONTAINER GERAL */
@@ -368,15 +332,7 @@ header{
     margin-top: 60px;
 }
 
-
 /* Stages */
-
-.stages h3{
-    font-size: 40px;
-    font-family: 'animevision';
-    text-align: center;
-}
-
 
 /* PRE-PRODUCTION */
 
@@ -384,17 +340,11 @@ header{
     width: 400px;
 }
 
-.preproduction h3{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 .preproduction ol{
     font-size: 28px;
     line-height: 1.7;
+    font-family: Arial, sans-serif;
 }
-
 
 /* PRODUCTION */
 
@@ -402,86 +352,323 @@ header{
     width: 400px;
 }
 
-.production h3{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 .production ol{
     font-size: 28px;
     line-height: 1.7;
+    font-family: Arial, sans-serif;
 }
-
 
 /* POST-PRODUCTION */
 
-.posproduction{
+.postproduction{
     width: 400px;
 }
 
-.posproduction h3{
-    font-size: 30px;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.posproduction ol{
+.postproduction ol{
     font-size: 28px;
     line-height: 1.7;
+    font-family: Arial, sans-serif;
 }
 
-/* Techniques */
 .techniques{
     font-size: 20px;
+    font-family: 'animevision';
     text-align: center;
+    margin-top: 60px;
 }
 
-/* Off-Scream Diologue */
-.offscreamdialogue h3{
-    font-size: 10px;
-}
-.offscreamdialogue img{
-    display: block;
-}
-.offscreamdialogue p{
-    font-size: 10px;
+/* OFF-SCREEN DIALOGUE */
+
+.containeroffscreen{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
 }
 
-/* Bank Animation */
-.bankanimation h3{
-    font-size: 10px;
-}
-.bankanimation h2{
-    font-size: 10px;
-}
-.goku-img{
-    
-}
-.goku-1{
-
-}
-.goku-2{
-
-}
-.goku-3{
-
-}
-.bankanimation li{
-    font-size: 10px;
+.offscreamdialogue{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
 }
 
-/* Animation Effects */
+.offscreen-images{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
 
-.animationeffects h3{
-    font-size: 10px;
+.offscream{
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ff3b2f;
+    border-radius: 20px;
 }
-.animationeffects h2{
-    font-size: 10px;
+
+
+
+
+/* BANK ANIMATION */
+
+.containerbankanimation{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
 }
-.animationeffects img{
-    display: block;
+
+.bankanimation{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
 }
-.animationeffects li{
-    font-size: 10px;
+
+
+
+/* SLIDER */
+
+.slider-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.slide{
+    display: none;
+    gap: 20px;
+}
+
+.slide.active{
+    display: flex;
+}
+
+.bank-img{
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 15px;
+    object-position: center;
+    border: 2px solid #ff3b2f
+}
+
+
+/* BOTÕES */
+
+.slider-btn{
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.slider-btn:hover{
+    color: #ff0000;
+}
+
+
+/* LISTA */
+
+.bankanimation ol{
+    display: flex;
+    gap: 40px;
+    font-size: 22px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* ANIMATION EFFECTS */
+
+.containereffects{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.animationeffects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 25px;
+}
+
+.effects-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.effect-img{
+    width: 380px;
+    height: 240px;
+    object-fit: cover;
+    border: 2px solid #ff3b2f;
+    border-radius: 15px;
+}
+
+.animationeffects ol{
+    display: flex;
+    gap: 40px;
+    font-size: 22px;
+    list-style-position: inside;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+footer{
+    margin-top: 80px;
+    padding: 40px;
+
+    text-align: center;
+
+    font-family: 'animevision';
+    font-size: 20px;
+
+    color: black;
+
+    text-shadow:
+        0 0 5px #ff3b2f,
+        0 0 15px #ff3b2f;
+}
+
+
+/* RESPONSIVO */
+
+img,
+iframe{
+    max-width: 100%;
+}
+
+@media (max-width: 900px){
+
+    /* TEXTOS */
+
+    p{
+        font-size: 18px;
+        padding: 0 15px;
+    }
+
+    h3{
+        font-size: 24px;
+        letter-spacing: 2px;
+    }
+
+    /* HEADER */
+
+    header{
+        height: auto;
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .subtitleprincipal{
+        font-size: 18px;
+        padding: 0 10px;
+    }
+
+    .principalquestion{
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    /* REMOVE O STRETCH NO MOBILE */
+
+    .stretch-title,
+    .stretch-subtitle{
+        transform: scaleX(1);
+    }
+
+    /* IMAGENS PRINCIPAIS */
+
+    .containerHaikyuu img,
+    .novel img,
+    .anime img,
+    .sequence img,
+    .containerversus img,
+    .offscream{
+        width: 90%;
+    }
+
+    /* MANGA E MANHWA */
+
+    .manga img,
+    .manhwa img{
+        width: 80%;
+    }
+
+    /* VÍDEOS */
+
+    .trailer iframe,
+    .opening iframe,
+    .ending iframe{
+        width: 90vw;
+        height: 50vw;
+    }
+
+    /* STAGES */
+
+    .preproduction,
+    .production,
+    .postproduction{
+        width: 90%;
+    }
+
+    .preproduction ol,
+    .production ol,
+    .postproduction ol{
+        font-size: 20px;
+    }
+
+    /* BANK ANIMATION */
+
+    .slider-container{
+        gap: 10px;
+    }
+
+    .slide.active{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bank-img{
+        width: 85vw;
+        height: auto;
+    }
+
+    .bankanimation ol{
+        flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    /* EFFECTS */
+
+    .effects-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .effect-img{
+        width: 85vw;
+        height: auto;
+    }
+
+    .animationeffects ol{
+        flex-direction: column;
+        gap: 10px;
+        font-size: 18px;
+    }
+
+    /* FOOTER */
+
+    footer{
+        font-size: 16px;
+        padding: 20px;
+    }
 }

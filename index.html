@@ -6,6 +6,9 @@
     <title>Presentation</title>
     <link rel="stylesheet" href="apre.css">
 </head>
+
+
+
 <body> 
     <header> <h2> <span class="stretch-title">How to make an anime</span></h2></header>
 
@@ -22,7 +25,7 @@
     </div>
 
     <div class="start">
-        <h3>The anime is an animation caracterized by style used in the work</h3>
+        <h2>The anime is an animation caracterized by style used in the work</h2>
     </div>
     <br>
 
@@ -39,8 +42,8 @@
 
     <div class="containermanga">
         <div class="manga">
-            <h3>Mangá</h3>
-            <img src="/images/Manga.jpg" alt="Manga´" class="Manga">
+            <h3>Manga´</h3>
+            <img src="/images/Manga.jpg" alt="Manga" class="Manga">
             <p>Mangás are stories in japanese comics, generally
             published in black and white and characterized
             by reading from right to left, both on the
@@ -89,11 +92,9 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen>
             </iframe>
-            <p>
-                The main function of a trailer is to promote
+            <p>The main function of a trailer is to promote
                 the anime, presenting some characters, scenes,
-                and a small preview of what may happen in the story.
-            </p>
+                and a small preview of what may happen in the story.</p>
         </div>
     </div>
 
@@ -106,16 +107,12 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen>
             </iframe>
-            <p>
-                The opening creates the anime visual identity
+            <p>The opening creates the anime visual identity
                 and shows characters and central themes, using
                 scenes and symbolism that work almost like
-                small teasers of what is to come.
-            </p>
+                small teasers of what is to come.</p>
         </div>
     </div>
-
-
     <div class="containerEnding">
         <div class="ending">
             <h3>Anime Ending</h3>
@@ -125,11 +122,9 @@
                 referrerpolicy="strict-origin-when-cross-origin"
                 allowfullscreen>
             </iframe>
-            <p>
-                The ending, like the opening, also contributes
+            <p>The ending, like the opening, also contributes
                 to the anime visual identity, but with a calmer
-                tone, especially in the music.
-            </p>
+                tone, especially in the music.</p>
         </div>
     </div>
 
@@ -139,12 +134,10 @@
             <img src="/images/anime-vs-manga.png" alt="Anime vs Mangá" class="vrs">
         </div>
     </div>
-
     <div class="containerstages">
         <div class="stages">
             <h3>Stages of creation</h3>
         </div>
-
         <div class="preproduction">
             <h3>Pre-Production</h3>
             <ol>
@@ -153,7 +146,6 @@
                 <li>Character Design</li>
             </ol>
         </div>
-
         <div class="production">
             <h3>Production</h3>
             <ol>
@@ -163,8 +155,7 @@
                 <li>2D/3D Animation</li>
             </ol>
         </div>
-
-        <div class="posproduction">
+        <div class="postproduction">
             <h3>Post-Production</h3>
             <ol>
                 <li>Colorization</li>
@@ -174,50 +165,83 @@
             </ol>
         </div>
     </div>
-
     <div class="techniques">
-        <h3>Animation Techniques</h3>
+    <h3>Animation Techniques</h3>
+</div>
+
+<div class="containeroffscreen">
+    <div class="offscreamdialogue">
+        <h3>Off-Screen Dialogue</h3>
+        <div class="offscreen-images">
+            <img src="/images/offscreen/anime-desfoque.jpg" alt="Off-screen example" class="offscream">
+            <img src="/images/offscreen/off-screen.png" alt="Off-screen example" class="offscream">
+            <img src="/images/offscreen/off-screen2.png" alt="Off-screen example" class="offscream">
+        </div>
+        <p>This occurs when you cannot see the character's mouth moving while they talk.
+            Sometimes, you cannot even see the character.</p>
     </div>
+</div>
 
-    <div class="offscreamdialogue"></div>
-        <h3>Off-Scream Dialogue</h3>
-        <!-- <img src="/images/offscreen/anime-desfoque.jpg" alt="Offscream" class="offscream">
-        <img src="/images/offscreen/off-screen.png" alt="Offscream" class="offscream">
-        <img src="/images/offscreen/off-screen2.png" alt="Offscream" class="offscream"> -->
-        <p>That occur when you can't see the mouth
-            character moviving when they talk, 
-            sometimes you can't even see the character
-        </p>
-    <br>
-
+<div class="containerbankanimation">
     <div class="bankanimation">
         <h3>Bank Animation</h3>
-        <h2>Technique is used in ready sequences with multiple episodes:</h2>
-        <!-- <img src="/images/bankanimation/goku1.png" alt="Goku" class="goku-img goku-1">
-        <img src="/images/bankanimation/goku2.png" alt="Goku" class="goku-img goku-2">
-        <img src="/images/bankanimation/goku3.jpg" alt="Goku" class="goku-img goku-3"> -->
-        
+        <p>This technique is used for ready-made sequences
+            repeated across multiple episodes.</p>
+        <div class="slider-container">
+            <button class="slider-btn prev" onclick="trocarSlide(-1)">❮<button>
+            <div class="slide active">
+                <img src="/images/bankanimation/goku1.png" class="bank-img">
+                <img src="/images/bankanimation/goku2.png" class="bank-img">
+                <img src="/images/bankanimation/goku3.jpg" class="bank-img">
+
+            </div>
+            <div class="slide">
+                <img src="/images/bankanimation/naruto1.jpg" class="bank-img">
+                <img src="/images/bankanimation/naruto2.jpg" class="bank-img">
+                <img src="/images/bankanimation/naruto3.jpg" class="bank-img">
+
+            </div>
+            <div class="slide">
+                <img src="/images/bankanimation/shintaro1.jpg" class="bank-img">
+                <img src="/images/bankanimation/shintaro2.jpg" class="bank-img">
+                <img src="/images/bankanimation/shintaro3.jpg" class="bank-img">
+            </div>
+            <button class="slider-btn next" onclick="trocarSlide(1)">❯</button>
+        </div>
         <ol>
-            <li>Specials attacks</li>
+            <li>Special attacks</li>
             <li>Transformations</li>
-            <li>Iconics moves</li>
+            <li>Iconic moves</li>
         </ol>
     </div>
 
+</div>
 
+<div class="containereffects">
     <div class="animationeffects">
         <h3>Animation Effects</h3>
-        <h2> effects useds to hide some scenes:</h2>
-        <img src="/images/animationeffects/kimetsu.jpg" alt="Tanjiro" class="kimetsu">
-        <img src="/images/animationeffects/fairytail.jpg" alt="Natsu" class="fairytaill">
+        <p>Effects are used to hide or simplify some scenes.</p>
+        <div class="effects-grid">
+            <img src="/images/animationeffects/kimetsu.jpg" alt="Tanjiro" class="effect-img kimetsu">
+            <img src="/images/animationeffects/fairytail.jpg" alt="Natsu" class="effect-img fairytail">
+            <img src="/images/animationeffects/onepiece.jpg" alt="Luffy" class="effect-img onepiece">
+            <img src="/images/animationeffects/sword_art_online.jpg" alt="Kirito" class="effect-img sword_art_online">
+        </div>
         <ol>
             <li>Smoke</li>
             <li>Fire</li>
-            <li>Ligth/Shine</li>
+            <li>Light/Shine</li>
             <li>Dust</li>
         </ol>
     </div>
+</div>
 
+
+<footer>
+    <h2>Thank you for your attention.</h2>
+</footer>
+
+<script src="apre.js"></script>
 
 </body>
 </html>

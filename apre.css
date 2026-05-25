@@ -346,6 +346,13 @@ header{
     font-family: Arial, sans-serif;
 }
 
+.preproduction img{
+    align-items: center;
+    width: 600px;
+    height: auto;
+    border: 2px solid #ff3b2f
+}
+
 /* PRODUCTION */
 
 .production{
@@ -356,6 +363,13 @@ header{
     font-size: 28px;
     line-height: 1.7;
     font-family: Arial, sans-serif;
+}
+
+.production img{
+    align-items: center;
+    width: 600px;
+    height: auto;
+    border: 2px solid #ff3b2f
 }
 
 /* POST-PRODUCTION */
@@ -447,8 +461,8 @@ header{
 }
 
 .bank-img{
-    width: 400px;
-    height: 300px;
+    width: 380px;
+    height: 280px;
     object-fit: cover;
     border-radius: 15px;
     object-position: center;
@@ -624,6 +638,12 @@ iframe{
     .production ol,
     .postproduction ol{
         font-size: 20px;
+    }
+
+    .preproduction img,
+    .production img{
+    width: 90%;
+    height: auto;
     }
 
     /* BANK ANIMATION */

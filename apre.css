@@ -13,19 +13,19 @@ p{
     line-height: 1.6;
     text-align: center;
     font-size: 25px;
+    color: white;
 
     font-family: Arial, sans-serif;
 }
 body{
     margin: 0;
+    background-color: black;
 }
 /* controle de margem para os textos gerais */
-h1 {
-    margin-bottom: 5px;
-}
 
 h2 {
     margin-top: 0px;
+    color: white;
 }
 
 h3{
@@ -33,7 +33,7 @@ h3{
     font-size: 35px;
     font-family: 'animevision';
     text-align: center;
-    color: black;
+    color: white;
 
     letter-spacing: 3px;
 
@@ -43,6 +43,10 @@ h3{
         0 0 35px #ff0000,
         0 0 70px #ff0000,
         0 0 140px #ff0000;
+}
+
+ol,li{
+    color: white;
 }
 
 header{
@@ -103,7 +107,11 @@ header{
 .containerHaikyuu img {
     width: 700px;
     height: auto;
-    border: 2px solid #ff3b2f
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 
@@ -135,7 +143,11 @@ header{
     align-items: center;
     width: 700px;
     height: auto;
-    border: 2px solid #ff3b2f
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 
 }
 
@@ -157,7 +169,11 @@ header{
     align-items: center;
     width: 400px;
     height: auto;
-    border: 2px solid #ff3b2f
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 
@@ -180,7 +196,11 @@ header{
     align-items: center;
     width: 400px;
     height: auto;
-    border: 2px solid #ff3b2f
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 
@@ -202,7 +222,11 @@ header{
     align-items: center;
     width: 600px;
     height: auto;
-    border: 2px solid #ff3b2f
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 /* Imagem de ordem */
 .containerordem{
@@ -231,6 +255,10 @@ header{
     align-items: center;
     width: 800px;
     height: auto;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 /* Trailer */
@@ -253,6 +281,10 @@ header{
     height: 450px;
     border: 2px solid #ff3b2f;
     border-radius: 20px;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 /* OPENING */
@@ -276,6 +308,10 @@ header{
     height: 450px;
     border: 2px solid #ff3b2f;
     border-radius: 20px;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 /* ENDING */
@@ -299,6 +335,10 @@ header{
     height: 450px;
     border: 2px solid #ff3b2f;
     border-radius: 20px;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 /* anime vs manga */
@@ -319,7 +359,11 @@ header{
     align-items: center;
     width: 700px;
     height: auto;
-    border: 2px solid #ff3b2f
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 /* CONTAINER GERAL */
@@ -350,7 +394,12 @@ header{
     align-items: center;
     width: 600px;
     height: auto;
-    border: 2px solid #ff3b2f
+    margin-top: 10px;
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 /* PRODUCTION */
@@ -369,7 +418,12 @@ header{
     align-items: center;
     width: 600px;
     height: auto;
-    border: 2px solid #ff3b2f
+    margin-top: 10px;
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 /* POST-PRODUCTION */
@@ -408,18 +462,23 @@ header{
 }
 
 .offscreen-images{
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 40px;
     align-items: center;
+    
 }
 
 .offscream{
     width: 800px;
     max-width: 100%;
-    height: auto;
     border: 2px solid #ff3b2f;
-    border-radius: 20px;
+    border-radius: 15px;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 
@@ -466,7 +525,11 @@ header{
     object-fit: cover;
     border-radius: 15px;
     object-position: center;
-    border: 2px solid #ff3b2f
+    border: 2px solid #ff3b2f;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 
@@ -475,7 +538,7 @@ header{
 .slider-btn{
     background: transparent;
     border: none;
-    color: white;
+    color: black;
     font-size: 40px;
     cursor: pointer;
     transition: 0.2s;
@@ -525,6 +588,10 @@ header{
     object-fit: cover;
     border: 2px solid #ff3b2f;
     border-radius: 15px;
+    box-shadow:
+    0 0 10px #ff3b2f,
+    0 0 25px #ff0000,
+    0 0 50px #ff0000;
 }
 
 .animationeffects ol{
